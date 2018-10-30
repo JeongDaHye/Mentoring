@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: yellow;
+}
+
+section {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: lightpink;
+}
+
+footer {
+  background-color: mediumpurple;
+}
