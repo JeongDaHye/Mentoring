@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>출근과 휴일</title>
+    <script type="text/javascript">
+    function printStar(day) {
+      var d = day;
+      switch (d) {
+        case "월":
+        case "화":
+        case "수":
+        case "목": document.write(d + "는 출근");
+        break;
+        case "금":
+        case "토":
+        case "일":document.write(d + "는 휴일");
+        break;
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <h2>월화수목금토일</h2>
+    <hr />
+    <script>
+  	  var day = prompt("월화수목금토일 중에서 입력하세요", "");
+  	  printStar(day);
+    </script>
+  </body>
+</html>
