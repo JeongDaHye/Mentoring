@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>수식계산</title>
+    <script type="text/javascript">
+    function print(sentence) {
+      var res = eval(sentence);
+      document.write(sentence + " = " + res);
+    }
+    </script>
+  </head>
+  <body>
+    <script>
+  	  var sentence = prompt("수식 입력", "");
+      document.write("<h2>eval()로 수식 계산</h2>");
+      document.write("<hr />");
+      print(sentence);
+    </script>
+  </body>
+</html>
